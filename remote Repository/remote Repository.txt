@@ -4,7 +4,7 @@
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 
 
-
+1、添加远程库
 $ git remote add origin git@github.com:michaelliao/learngit.git
 
 $ git push -u origin master
@@ -16,3 +16,16 @@ Total 23 (delta 6), reused 0 (delta 0)
 To git@github.com:michaelliao/learngit.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
+
+
+
+2、从远程库克隆
+$ git clone git@github.com:michaelliao/gitskills.git
+Cloning into 'gitskills'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Receiving objects: 100% (3/3), done.
+
+$ cd gitskills
+$ ls
+README.md
